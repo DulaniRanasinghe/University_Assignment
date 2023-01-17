@@ -1,0 +1,298 @@
+
+body{
+	background:linear-gradient(#5A1C91,#CDACEA);
+	font-family:Tahoma, sans-serif;
+	font-size:12px;
+	
+}
+.page{
+	width:1000px;
+	height:auto;
+	
+}
+.header{
+	width:1000px;
+	height:100px;
+	border-radius:5px;
+	background-color:5A1C91;
+	border-radius:10px;
+	
+	
+}
+
+.header h1{
+	color:#eeeeee;
+	float:left;
+	margin-left:10px;
+}
+.header h2{
+	color:#eeeeee;
+	float:left;
+	position:absolute;
+	top:50px;
+	margin-left:10px;
+}
+.header .search{
+
+	position:relative;
+	top:40px;
+	left:230;
+	
+	
+}
+.header	.search h4{
+	color:#eeeeee;
+	position:relative;
+	top:20px;
+	right:190px;
+}
+.header	.search input{
+	position:relative;
+	float:right;
+	top:-15px;
+	right:260px;
+	border-radius:10px;
+}
+
+.menu ul{
+	list-style:none;
+	
+	
+}
+.menu ul li{
+	background-color:5A1C91;
+	border:1px solid 663B8C  ;
+	border-radius:10px;
+	width:150px;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	float:left;
+	position:relative;
+	top:-455px;
+}
+.menu ul li a{
+	text-decoration:none;
+	color:#eeeeee ;
+	display:block;
+	
+}
+.menu ul li a:hover{
+	background-color:CDACEA;
+	border-radius:10px;
+	color:black;
+	
+}
+.menu ul ul{
+	position:absolute;
+	display:none;
+	top:490px;
+	margin:0px;
+	padding:0px;
+	
+}
+.menu ul li:hover > ul{
+	display:block;
+	border-radius:10px;
+	transition:linear all 0.40s;
+	
+}
+.imagebox{
+	width:1000px;
+	height:400px;
+	margin-top:50px;
+	border-radius:10px;
+	
+}
+.imagebox .image {
+	width:1000px;
+	height:400px;
+	background-image:url('images/web3.jpg');
+	position:relative;
+	border-radius:10px;
+}
+
+.imagebox .image:hover {
+	background-image:url('images/web4.jpg');
+	
+}
+
+.bodypart{
+	width:1000px;
+	height:600px;
+	margin-top:10px;
+	border-radius:10px;
+	
+}
+.bodypart .content{
+	width:795px;
+	height:600px;
+	background-color:5A1C91;
+	border-radius:10px;
+	margin-top:575px;
+	margin-left:205px;
+	
+	
+}
+.submenu{
+		width:200px;
+		height:600px;
+		background:5A1C91;
+		margin-top:-25px;
+		border-radius:10px;
+		float:left;
+}
+.bodypart .submenu *{
+	
+	padding:0;
+	margin:0;
+
+}
+	
+.bodypart .submenu a{
+	text-decoration:none;
+	color:white;
+	margin-left:20px;
+	
+	
+		
+}	
+
+.bodypart .submenu ul li{
+	list-style:none;
+	display:block;
+	padding:20px;
+	border-bottom:1px solid CDACEA;
+	
+	
+}
+.bodypart .submenu ul li:hover{
+	background-color:CDACEA;
+	transition:linear all 0.40s;
+	margin-left:20px;
+}
+.bodypart .submenu ul li a:hover{
+	color:black;
+}
+.bodypart .welcome{
+	width:600px;
+	height:500px;
+	margin-left:40px;
+	margin-top:-550px;
+	line-height:0.5cm;
+	color:#eeeeee;
+		
+}
+.bodypart .welcome p{
+	position:relative;
+	text-align:justify;
+	top:30px;
+}
+.bodypart .welcome h1{
+	text-align:center;
+	top:-40px;
+	
+}
+.bodypart .content .welcome .form{
+	margin-left:150px;
+	color:#eeeeee;
+	font-size:12;
+	position:relative;
+	top:20px;
+	float:left;
+	text-align:justify;
+	
+}
+.bodypart .content .welcome .imgmedia{
+	width:650px;
+	height:550px;
+	margin-top:50px;
+	margin-left:-50px;
+	float:left;
+	
+}
+.bodypart .content .welcome .imgev{
+	width:650px;
+	height:500px;
+	margin-top:50px;
+	margin-left:-50px;
+	float:left;
+	
+}
+.bodypart .content .welcome .imgre{
+	width:400px;
+	height:300px;
+	margin-top:50px;
+	margin-left:5px;
+	background-image:url('images/research.jpg');
+}
+.bodypart .content .welcome .contact{
+	width:400px;
+	height:300px;
+	margin-top:15px;
+	margin-left:230px;
+
+}
+
+.bodypart .content .welcome .imgre:hover{
+	background-image:url('images/research3.jpg');
+}
+.bodypart .content .welcome .imgawr{
+	width:400px;
+	height:300px;
+	margin-top:50px;
+	margin-left:5px;
+	background-image:url('images/awards.jpg');
+}
+
+.bodypart .content .welcome .imgawr:hover{
+	background-image:url('images/award2.jpg');
+}
+
+
+.footer{
+	width:1000px;
+	height:150px;
+	background-color:5A1C91;
+	opacity:0.9;
+	filter:alpha(opacity=90);
+	border-radius:10px;
+	margin-top:-10px;
+	
+}
+.footer .fmenu ul{
+	list-style:none;
+	
+	
+}
+.footer .fmenu ul li{
+	background-color:5A1C91;
+	border:1px solid 663B8C  ;
+	border-radius:10px;
+	width:150px;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	float:left;
+	left:-50px;
+	margin-left:80px;
+	position:relative;
+	top:50px;
+}
+.footer .fmenu ul li a{
+	text-decoration:none;
+	color:#eeeeee;
+	display:block;
+	
+}
+.footer .fmenu ul li a:hover{
+	background-color:CDACEA;
+	border-radius:10px;
+	color:black;
+	
+	
+}
+.copy h4{
+	color:#eeeeee;
+	
+}
